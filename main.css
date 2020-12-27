@@ -1,0 +1,378 @@
+* {
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+nav {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 112px;
+    background: #FFFFFF;
+    z-index: 1000000;
+    overflow-x: visible;
+}
+main {
+    width: 100vw;
+    min-height: 800px;
+    height: 100vh;
+    background-image: url("170404000126-22-ncaa-final-super-169.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    position: absolute;
+    left: 0px;
+    height: 195px;
+    width: 100vw;
+    bottom: 0px;
+    background: rgba(202, 92, 45, 0.72);
+    z-index: 3000000000;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.dropDownItem {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+    padding: 5px 0px;    
+}
+#logo1 {
+    position: absolute;
+    left: 53px;
+    top: 18px;
+    background-image: url("logo1.jpg");
+    width: 159px;
+    height: 75px;
+    background-size: cover;
+}
+#logo2 {
+    position: absolute;
+    width: 128px;
+    height: 48.72px;
+    left: 216px;
+    top: 31px;
+    background: url("logo2.jpg");
+    background-size: cover;
+}
+#logo3 {
+    position: absolute;
+    width: 177px;
+    height: 38.2px;
+    left: 348px;
+    top: 41px;
+    background: url("logo3.jpg");
+    background-size: cover;
+}
+#navLinks {
+    position: absolute;
+    width: 245px;
+    height: 50px;
+    right: 36.1%;
+    top: 45px;
+    bottom: 91.23%;
+    display: flex;
+}
+#home {
+    height: 44.8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+}
+#about {
+    height: 44.8px;
+    top: 45px;
+    margin-left: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+}
+#contact {
+    height: 44.8px;
+    margin-left: 60px;
+    top: 45px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+}
+#signIn {
+    position: absolute;
+    width: 53px;
+    height: 19px;
+    right: 222px;
+    top: 46px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #286285;
+}
+#register {
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    right: 38px;
+    top: 33px;
+    color: #C25A2D;
+    border: 1px solid #C25A2D;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainShade {
+    position: absolute;
+    width: 100vw;
+    min-height: 800px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, #FFFFFF 0%, rgba(49, 148, 194, 0.5) 100%), #C4C4C4;
+    opacity: 0.5;
+}
+#splashContent {
+    position: absolute;
+    max-width: 400px;
+    left: 11.6%;
+    top: 260px;
+    overflow-x: visible;
+    padding-right: 15px;
+}
+#splashSlogan {    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #091133;
+    overflow-x: visible;
+    margin-bottom: 30px;
+}
+#splashContext {
+    max-width: 393px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #30395E;
+    overflow-x: visible;
+    margin-bottom: 40px;
+}
+#splashButton {
+    width: 189px;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #091133;
+    border: 2px solid #091133;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footerDiv {
+    position: absolute;
+    width: 76.8%;
+    height: 1px;
+    left: 11.6%;
+    bottom: 76px;
+    background: #CDD1D4;
+}
+#linkedInSVG {
+    position: absolute;
+    right: 11.6%;
+    bottom: 36px;
+}
+#footerRegister {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    right: 11.6%;
+    bottom: 123px;
+    width: 109px;
+    height: 29px;
+    background: #286285;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#copyright {
+    position: absolute;
+    bottom: 124px;
+    left: 11.6%;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #353B3E;
+}
+#footerNavHome {
+    position: absolute;
+    height: 24px;
+    left: 11.6%;
+    bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #353B3E;
+    overflow-x: visible;
+}
+#footerNavAbout {
+    position: absolute;
+    height: 24px;
+    left: 18.18%;
+    bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #353B3E;
+    overflow-x: visible;
+}
+#footerNavContact {
+    position: absolute;
+    height: 24px;
+    left: 24.96%;
+    bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #353B3E;
+    overflow-x: visible;
+}
+#menuBox {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    right: 38px;
+    top: 33px;
+    color: #C25A2D;
+    border: 1px solid #C25A2D;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: none;
+    padding-top: 12px;
+    padding-left: 2px;
+}
+#menuBox:hover {
+    cursor: pointer;
+}
+#dropDownContainer {
+    width: 150px;
+    background: white;
+    padding: 15px;
+    position: absolute;
+    right: 0px;
+    z-index: 200000000000000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#innerRegister {
+    color: #C25A2D;
+}
+@media only screen and (max-width: 1400px) {
+    #navLinks {
+        right: 31.1%;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    #navLinks, #signIn, #register {
+        display: none;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #logo2, #logo3, #footerNavHome, #footerNavAbout, #footerNavContact {
+        display: none;
+    }
+    #splashContent {
+        top: 210px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #splashSlogan {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #splashContext {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #logo1 {
+        left: 23px;
+    }
+    #splashContent {
+        top: 160px;
+    }
+    #splashSlogan {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #splashContext {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #copyright {
+        display: none;
+    }
+}
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Rubik;
+    src: url(Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(Inter-Regular-slnt=0.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(Mulish-Regular.ttf);
+}
