@@ -1,0 +1,80 @@
+main {
+    background-image: none;
+    display: flex;
+}
+h1 {
+    height: 66px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #193D53;
+    margin-top: -50px;
+}
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+input, textarea {
+    width: 100%;
+    height: 50px;
+    padding: 16px;
+    margin: 18px 0px 0px 0px;
+    background: #F6F6F6;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    font-family: Inter;
+}
+textarea {
+    resize: none;
+}
+#formSide {
+    height: 100%;
+    width: 50%;
+    background-color: #BED0DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10000;
+}
+#imageSide {
+    height: 100%;
+    width: 50%;
+    background-image: url("/contactBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#messageInput {
+    height: 150px;
+}
+#submitButton {
+    background: #286285;
+    border-radius: 100px;
+    color: white;
+    font-family: Inter;
+    border: none;
+}
+@media only screen and (max-width: 1250px) {
+    #formSide {
+        width: 100%;
+    }
+    #imageSide {
+        display: none;
+    }
+}
+@media only screen and (max-width: 530px) {
+    #formSide {
+        padding: 0px 15px;
+    }
+    form {
+        width: 100%;
+    }
+}
