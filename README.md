@@ -1,2 +1,2 @@
 # Tipoff Analytics
-Code files for the Tipoff Analytics website.
+The code files for a five page website, built for a company known as "Tipoff Analytics".
